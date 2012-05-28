@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Patrick Conley <pconley@uvic.ca>
-# Last modified: 2011 Dec 29
+# Last modified: 2012 May 08
 #
 # Summary: Change the function-lock status for any apple keyboards installed
 #
@@ -12,5 +12,5 @@ sudo update-initramfs -u
 
 if [[ -d /sys/module/hid_apple ]]
 then
-   echo 2 > /sys/module/hid_apple/parameters/fn_mode
+   echo 2 > /sys/module/hid_apple/parameters/fnmode
 fi
