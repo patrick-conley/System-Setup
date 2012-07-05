@@ -6,18 +6,18 @@ keylayout.pl
    register them in the rules files. Newer versions of Ubuntu will reread
    these immediately; other distros may require a logout
 
-   Run -h for help. Requires root priviledges
+   Run -h for help. Requires root privileges
 
 apache.sh
-   Install and set up the Apache server. Requires root priviledges
+   Install and set up the Apache server. Requires root privileges
 
 applekeyboard.sh
    The default settings for the Apple Aluminum keyboard are a bit off (F-keys
-   default to Fn mode). Fix them. Requires root priviledges
+   default to Fn mode). Fix them. Requires root privileges
 
 crontab.sh
    Put a couple things in my crontab. Only works if the crontab doesn't
    already exist
 
 setup.sh
-   And the wrapper for all the above. Requires root priviledges
+   And the wrapper for all the above. Requires root privileges

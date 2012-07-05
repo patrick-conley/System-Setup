@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Patrick Conley <pconley@uvic.ca>
-# Last modified: 2012 Jan 27
+# Last modified: 2012 Jul 05
 #
 # Summary: Set up a default crontab, calling batch_unison.sh (hourly),
 # podcaster.pl (weekly)
@@ -19,3 +19,4 @@ $(( $RANDOM % 60 )) * * * * /home/pconley/bin/sync/batch_unison.sh -t 1
 $(( $RANDOM % 60 )) 15 * * 0 podcaster.pl
 EOT
 
+echo "Successfully added crontab items"
