@@ -20,7 +20,7 @@
 # Make a list of layout names to compare against each section
 
 # Default path to search for keyboard layouts
-my $DEFAULT_LAYOUT_PATH = $ENV{HOME} . "/Library/Keyboard Layouts/";
+my $DEFAULT_LAYOUT_PATH = $ENV{HOME} . "/Documents/projects/current/keylayouts/";
 
 # Information about each keylayout
 # (hardcoded 'cause I'm hardcore. Also, should this ever be passed to a
