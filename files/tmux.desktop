@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=tmux
+Comment=Use the command line with tmux
+TryExec=gnome-terminal
+Exec=gnome-terminal --window --maximize -e "/home/pconley/bin/scripts/tmux"
+Icon=utilities-terminal
+Type=Application
+X-GNOME-DocPath=gnome-terminal/index.html
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-terminal
+X-GNOME-Bugzilla-Component=BugBuddyBugs
+X-GNOME-Bugzilla-Version=3.6.0
+Categories=GNOME;GTK;Utility;TerminalEmulator;
+StartupNotify=true
+OnlyShowIn=GNOME;Unity;
+Keywords=Run;
+Actions=New
+X-Ubuntu-Gettext-Domain=gnome-terminal
+
+[Desktop Action New]
+Name=New Multiplexed Terminal
+Exec=gnome-terminal -e "/home/pconley/bin/scripts/tmux"
+OnlyShowIn=Unity

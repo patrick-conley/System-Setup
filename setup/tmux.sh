@@ -6,11 +6,11 @@
 # Summary: Install tmux v. 1.7
 
 # Identify the version of tmux installed by the package manager
-VERSION=$( apt-cache showpkg tmux | grep -A1 Versions: | grep -o "^[0-9\.]*" )
+VERSION=$( apt-cache showpkg tmux | grep -A1 Versions: | grep -o "^[0-9]*\(\.[0-9]*\)\?" )
 
-if [[ ! $( echo "$VERSION >= 1.7" | bc -q ) ]]
+if [[ $( echo "$VERSION >= 1.7" | bc -q ) == 1 ]]
 then
-   apt-get install tmux 
+   apt-get install tmux
    exit 0
 else
    echo -en "\e[0;31m"

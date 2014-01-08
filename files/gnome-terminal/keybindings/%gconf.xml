@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="new_tab" mtime="1350606966" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="move_tab_right" mtime="1350428133" type="string">
+		<stringvalue>&lt;Primary&gt;&lt;Alt&gt;parenright</stringvalue>
+	</entry>
+	<entry name="move_tab_left" mtime="1350428130" type="string">
+		<stringvalue>&lt;Primary&gt;&lt;Alt&gt;parenleft</stringvalue>
+	</entry>
+	<entry name="next_tab" mtime="1350606962" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="prev_tab" mtime="1350606960" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+</gconf>

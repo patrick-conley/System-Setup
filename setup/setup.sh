@@ -9,9 +9,6 @@
 # Scripts called from here normally operate on system files; this therefore
 # requires superuser privileges.
 
-# some scripts require ssh
-apt-get install zsh
-
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
 
@@ -19,7 +16,7 @@ cd $DIR
 "$DIR/applekeyboard.sh"
 "$DIR/apache.sh"
 "$DIR/ssh.sh"
-"$DIR/tmux.zsh"
+"$DIR/tmux.sh"
 
 # running as superuser may confuse the crontab
 sudo -u $( whoami ) "$DIR/crontab.sh" 
