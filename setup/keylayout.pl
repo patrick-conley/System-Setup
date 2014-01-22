@@ -20,7 +20,7 @@
 # Make a list of layout names to compare against each section
 
 # Default path to search for keyboard layouts
-my $DEFAULT_LAYOUT_PATH = $ENV{HOME} . "/Documents/projects/current/keylayouts/";
+my $DEFAULT_LAYOUT_PATH = $ENV{HOME} . "/Documents/projects/2012/keylayouts/";
 
 # Information about each keylayout
 # (hardcoded 'cause I'm hardcore. Also, should this ever be passed to a
@@ -223,7 +223,7 @@ sub find_layouts
       unshift @possible_paths, $real_input_keylayout_path;
 
        $log->debug( "Using suggested path [ $input_keylayout_path ] as [ "
-         . "$real_input_keylayout_path ]" );
+         . "$real_input_keylayout_path ]" ) if $has_logger;
    }
 
    # Make sure each path ends with a separator
