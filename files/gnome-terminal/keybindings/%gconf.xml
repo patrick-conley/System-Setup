@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <gconf>
+	<entry name="help" mtime="1395166044" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
 	<entry name="new_tab" mtime="1350606966" type="string">
 		<stringvalue>disabled</stringvalue>
 	</entry>
