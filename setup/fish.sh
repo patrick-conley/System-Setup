@@ -30,4 +30,4 @@ else
 fi
 
 mkdir ~/temp/ # some fish config scripts depend on this directory
-chsh -s /usr/local/bin/fish pconley
+chsh -s $(which fish) pconley

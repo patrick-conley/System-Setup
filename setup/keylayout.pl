@@ -38,7 +38,25 @@ my $KEYLAYOUTS = [
             short_name => 'PProgramming',
             full_name => 'PConley Programming',
          },
+         {
+            layout => 'dve',
+            short_name => 'PDvorak',
+            full_name => 'PConley Dvorak (Ergodox)',
+         },
+         {
+            layout => 'dep',
+            short_name => 'PProgramming',
+            full_name => 'PConley Programming (Ergodox)',
+         },
       ]
+   },
+   {
+      layout => 'arensito',
+      short_name => 'Arensito',
+      full_name => 'Arensito',
+      language => 'eng',
+      path => undef,
+      variants => undef,
    },
 ];
 
